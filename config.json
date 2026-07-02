@@ -1,0 +1,23 @@
+{
+    "url" : "https://example.com",
+    "file" : "Your file",
+    "random_UA" : [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/119.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/118.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"
+    ],
+    "suffixes" : [
+        ".php",".phtml",".jsp",".aspx",".asp",".html",".txt",".zip",".bak",".sql",".old",".env",".conf",""
+    ],
+    "status" : [200, 301, 302, 401],
+    "header" : {
+
+    },
+    "proxy" : null,
+    "timeout" : 5,
+    "max_worker" : 10,
+    "retries" : 2,
+    "result_file" : "catalog.txt"
+}
